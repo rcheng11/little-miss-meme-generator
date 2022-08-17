@@ -1,0 +1,50 @@
+canvas{
+  width: 400px;
+  height: 400px;
+  border: 1px solid gray;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-col{
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.filler{
+  height: 30%;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  text-align: center;
+}
+.canvas-box{
+  padding: 50px;
+}
+.input-group{
+  text-align: left;
+  padding: 5px;
+  color: white;
+}
+#topInput{
+  padding: 10px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin: 10px;
+}
+#leftButton{
+  width: 100
+}
+#rightButton{
+
+}

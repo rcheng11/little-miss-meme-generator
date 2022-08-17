@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Little Miss Generator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="flex-container">
+      <!-- INPUT BOX -->
+      <div class="flex-col">
+        <div class="filler">
+
+        </div>
+        <div class="input-box">
+          <input id="topInput" placeholder="Write Tagline Here" type="text">
+          <div class="input-group">
+            <input id="colorInput" type="color" value="#fffff0">
+            <label for="">Background</label>
+          </div>
+          <div class="input-group">
+            <input id="textColorInput" type="color">
+            <label for="">Text</label>
+          </div>
+          <button id="leftButton" type="button" name="button">Previous Image</button>
+          <button id="rightButton" name="button">Next Image</button>
+        </div>
+      </div>
+
+      <!-- CANVAS -->
+      <div class="canvas-box">
+        <canvas id="myCanvas" width="400px" height="400px">
+        </canvas>
+      </div>
+    </div>
+
+
+<script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
